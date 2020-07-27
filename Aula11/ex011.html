@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seleção de Pais</title>
+</head>
+<body>
+    <h1>Selecione o seu pais</h1>
+    Qual é o nome do seu pais: <input type="text" name="txtp" id="txtp"> QUE LEGAL!
+    <input type="button" value="Autenticar" onclick="pais()">
+    <div id="Pais">
+
+    </div>
+    <script>
+        function pais(){
+            var txtpais = document.getElementById('txtp')
+            var res = document.getElementById('res')
+            res.innerText = `<p>Você mora nesse <strong>${txtpais}</strong></p>`
+        }    
+    </script>
+</body>
+</html>

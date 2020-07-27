@@ -1,0 +1,113 @@
+var s = 'JavaScript'
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para MAIÚSCULAS
+s.toLowerCase() // tudo para minúsculas
+
+var n1 = 1545.45
+n1.toFixed // Para colocar casas decimais
+n1.toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL'})
+// Faz com que a referencia salarial apareca 
+
+Operadores JavaScript
+
+Aritméticos - Operadores de contas
+Atribuição
+Relacionais
+Lógicos
+Ternário
+
+Ordem de precedência JS
+()
+**
+* / %
++ - 
+
+var n = 3 		Simplificando
+n = n + 4		n += 4 
+n = n - 5		n -= 5
+n = n * 4 		n *= 4	
+n = n / 2 		n /= 2
+n = n ** 2		n **= 2
+n = n % 5		n %= 5
+
+Operador de Incremento
+var x = 5		Simplificando		Incremento
+x = x + 1		x += 1			x++ ou ++x
+x = x - 1 		x -= 1 			x-- ou --x
+
+Operadores Relacionais
+> (Maior)
+< (Menor)
+>= (Maior ou Igual) 
+<= (Menor ou Igual)
+== (Igual)
+=== (Identico)
+!= (Diferente)
+!== (Desigual restrito)
+
+5 == 5 --> true
+5 == '5' --> true
+Porque o JavaScript vai analisar se ele tem o mesmo valor
+idependentimente se ele é interio(int) ou uma String
+
+Operadores de Identidade
+vai dizer se é identico
+
+Operadores Lógicos
+! (Negação)
+&& (Conjunção)
+|| (Disjunção)
+5 == '5' --> true
+5 === '5' --> false
+
+a > b && b % 2 == 0
+Primeiro é feito os operadores aritiméticos 
+Em segundo vai ser feito o operador relacional 
+por último vai ser feito o operador lógico
+
+Se em uma operação tiver um &&(Conjunção),!(Negação) e um ||(Disjunção)
+vai executar primeiro o ! depois o && e por fim o ||
+
+Precedência no JS 
+1º - Operadores Aritiméticos
+2º - Operadores Relacionais
+3º - Operadores Lógicos nesta sequência(! , && , ||)
+
+Operador Ternário 
+Tem esse nome pois ele junta 3 operandos
+?
+:
+
+Tipos de Condição 
+Condição Simples (if)
+Condição conplexa  (if e else)
+Condição Aninhada (é uma condição dentro de outra)
+Condição Multipla (Trabalha com valores fixos)
+(break em swtich é obrigátorio para n dar problema)
+
+Repetições em JS
+while(enquanto)
+do(faça)
+
+Variaveis:
+	
+	Variaveis Simples devem ser capazes de armazenar um valor por vez.
+
+	Variaveis Compostas devem ser capazes de armazenar varios valores em uma mesma estrutura. 
+
+Um array ou um vetor ou uma variável composta é uma variável que tem vários elementos, cada elemento
+é composto por seu valor e por uma chave de identificação. 
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento. 
+
+Uma função pode receber parâmetros e retornar um resultado.   
+
+Proximos passos : 
+
+functions 
+objetos
+modularização 
+RegEx
+JSON
+AJAX
+nodeJS
